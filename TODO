@@ -1,0 +1,15 @@
+# TODO List for [Express pr0game stats chatbot]
+
+## Unfinished Tasks
+
+### High Prio
+- asd
+
+### Medium Prio
+- Match similar playernames and give recommendation message, if no match has been found.
+
+### Low Prio
+- ensure README is up2date and contains all necessary environment variables.
+
+### Bug Fixes
+- asd
