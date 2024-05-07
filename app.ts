@@ -4,7 +4,6 @@ const express = require('express');
 require('dotenv').config();
 import fs from 'fs';
 import { logger } from './utils/logger';
-import { extractUserFromPlayerstats, generateAsciiStats } from './utils/sharedFunctions';
 import bot from './utils/telegramChatBot';
 const bodyParser = require('body-parser');
 

@@ -4,6 +4,8 @@
 
 ### High Prio
 - asd
+- change secret of rest pw in env variables and don't upload it again in rest_api_playground...
+- add axios rest post request from playwright export to generate player-stats 
 
 ### Medium Prio
 - Match similar playernames and give recommendation message, if no match has been found.
