@@ -48,6 +48,8 @@ app.post('/pr0game/stats/json/:pw', async (request: Request, response: Response)
       logger.verbose(
         `JSON is valid PlayerStatistics[] Array with length ${parsedPostData.length} and ${parsedPostData[0].children.length} children at index 0.`
       );
+      response.status(202);
+      response.send('SUCCESS');
     } else {
       logger.warn(`JSON is not a valid  PlayerStatistics[] Array. Errors might occur.`);
     }
