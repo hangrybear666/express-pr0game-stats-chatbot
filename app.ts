@@ -5,6 +5,7 @@ require('dotenv').config();
 import fs from 'fs';
 import { logger } from './utils/logger';
 import bot from './utils/telegramChatBot';
+import { sendUnformattedAdminTelegramMessage } from './utils/telegramAdminNotificationBot';
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -82,7 +83,7 @@ function writeJSONToFile(stats: PlayerStatistics[], path: string, writingFinishe
     if (err) {
       logger.error("Couldn't write JSON file: ", err);
     } else {
-      logger.info(`📂 Persisted stats for chatbot in: ${path}`);
+      sendUnformattedAdminTelegramMessage(`📂 Persisted stats for chatbot in: ${path}`);
       writingFinished();
     }
   });
