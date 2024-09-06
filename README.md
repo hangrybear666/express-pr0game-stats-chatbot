@@ -1,16 +1,16 @@
 
 # Express Pr0game Stats Chatbot
 
+This GitHub repository hosts an Express server built with TypeScript that uses the Telegram Bot API to create a chatbot for querying automatically collected pr0game player stats. It handles HTTP requests, processes JSON files, outputs nicely formatted ASCII message.
+
 ## Technologies Used
 
 - **TypeScript:** Statically typed JS with high strictness level and compile target ESNext.
 - **Express:** A minimalist web framework for Node.js used to build the server-side application.
 - **Axios:** A promise-based HTTP client for making requests to the backend API and handling asynchronous operations.
-- **fs:** File system module for Node.js.
 - **Morgan:** HTTP request logger middleware for Node.js.
 - **Node.js:** A JavaScript runtime environment used for executing server-side code.
 - **Telegram Bot API:** Used for creating a Telegram chatbot to communicate extracted data from the JSON files to users.
-- **Discord.js:** A powerful JavaScript library for interacting with the Discord API, used for creating a Discord chatbot to communicate extracted data from the JSON files to users.
 - **Nodemon:** Hot Reload upon file changes of the server during development, enhancing the development workflow.
 - **ts-node:** Executing TypeScript files directly without the need for compilation, enhancing the development workflow.
 - **ESLint and Prettier:** Linter and Formatter for ensuring code quality and enforcing coding standards.
