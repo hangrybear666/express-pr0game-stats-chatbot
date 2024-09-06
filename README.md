@@ -65,11 +65,6 @@ npm run server
    - Start a conversation with your Telegram bot using the provided username.
    - Interact with the bot to receive data extracted from the JSON files.
 
-3. **Discord Bot:**
-
-   - Invite your Discord bot to your server using the provided invite link.
-   - Interact with the bot in your Discord server to receive data extracted from the JSON files.
-
 Once the server is up and running, it will be ready to handle HTTP requests containing .json files and interact with users via Telegram and Discord chatbots.
 
 ## License
